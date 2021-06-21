@@ -135,6 +135,10 @@ a {
   text-align: center;
 }
 
+.item-container img {
+  background-color: #1C2127;
+}
+
 #films .item-container img,
 #books .item-container img {
   width: 172px;
