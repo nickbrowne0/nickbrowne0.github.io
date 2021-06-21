@@ -41,6 +41,24 @@ a {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
+  padding-right: 40px;
+}
+
+#header h2 {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+#header .selected {
+  font-weight: 800;
 }
 
 /* PROFILE */
@@ -71,7 +89,7 @@ a {
 #profile #name {
   font-weight: bold;
   font-size: 23px;
-  margin-top: 14px;
+  margin-top: 10px;
   letter-spacing: 0.3px;
 
   text-align: center;
@@ -92,20 +110,28 @@ a {
   height: 18px;
   background: url("spritesheet.png") 0 -1px;
   position: absolute;
-  top: -12px;
+  top: -15px;
 }
 
 #profile #place {
   font-weight: 500;
   font-size: 14px;
-  margin-top: -12px;
+  margin-top: -15px;
   margin-left: 14px;
+}
+
+#profile #bio {
+  font-weight: 400;
+  font-size: 14px;
+  text-align:  center;
+  margin-top: 42px; /*LINKED TO #MAIN MARGIN BELOW \/*/
+  line-height: 20px;
 }
 
 /* MAIN */
 
 #main {
-  margin-top: 60px;
+  margin-top: 0px; /*originally 60px*/
   padding-bottom: 73px;
 }
 
@@ -210,6 +236,11 @@ a {
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+.back-arrow:hover,
+.forwards-arrow:hover {
+  background-position: -27px 0;
 }
 
 #films .back-arrow,
