@@ -60,7 +60,7 @@ a {
 #profile .dp {
   width: 108px;
   height: 108px;
-  background: #1C2127;
+  background-color: #1C2127;
   -webkit-border-radius: 54px;
   -moz-border-radius: 54px;
   border-radius: 54px;
@@ -134,16 +134,17 @@ a {
   position:  relative;
   text-align: center;
   background-color: #1C2127;
-  width: 172px;
-  height: 260px;
 }
 
+#films .item-container ,
 #films .item-container img,
+#books .item-container,
 #books .item-container img {
   width: 172px;
   height: 260px;
 }
 
+#albums .item-container,
 #albums .item-container img {
   width: 220px;
   height: 220px;
