@@ -133,10 +133,8 @@ a {
   margin: 0px 10px 0px 10px;
   position:  relative;
   text-align: center;
-}
-
-.item-container img {
   background-color: #1C2127;
+  height: 260px;
 }
 
 #films .item-container img,
